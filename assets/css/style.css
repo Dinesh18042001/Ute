@@ -492,7 +492,7 @@ html {
     top: 38%;
     left: 50%;
     transform: translate(-50%, -50%);
-     width: 115%;   
+     width: 111%;   
      justify-content: space-between;
      display: flex;
 
@@ -596,6 +596,8 @@ border-radius: 0px !important;
 
 .footer-section .footer-company-name{
     color: #fff;
+    font-size: 15px;
+    padding-top: 5px;
 }
 .footer-section .footer-company-name a{
     text-decoration: none;
@@ -604,6 +606,7 @@ border-radius: 0px !important;
 
 .footer-section .footer-bottem-info p{
     color: #fff;
+    font-size: 13px;
 }
 
 .footer-section .footer-bottem-info p i{
