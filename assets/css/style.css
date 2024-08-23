@@ -530,7 +530,7 @@ html {
 }
 
 .footer-icon p a i {
-    background-color: #3f3737;
+    background-color: #FFD7DC;
     color: var(--primary-color);
     padding: 10px;
     border-radius: 50%;
@@ -612,7 +612,7 @@ border-radius: 10px;
 }
 
 .footer-section .footer-bottem-info p i{
-    background-color: #3f3737;
+    background-color: #FFD7DC;
     color: var(--primary-color);
     padding: 10px;
     border-radius: 50%;
