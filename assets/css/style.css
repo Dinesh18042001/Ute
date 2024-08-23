@@ -574,6 +574,8 @@ html {
 }
 .footer-section form input{
 border-radius: 0px !important;
+border: 1px solid var(--primary-color);
+border-radius: 10px;
 }
 
 .footer-section label{
