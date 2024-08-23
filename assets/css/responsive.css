@@ -1,0 +1,68 @@
+/* topbar section */
+
+@media(max-width:991px) {
+    .topbar-section {
+        display: none;
+    }
+}
+
+
+@media(max-width:991px) {
+    .navbar {
+        top: 0;
+    }
+}
+
+/* banner section start */
+@media(max-width:991px) {
+    .banner-section .banner-info h1 {
+        font-size: 30px;
+    }
+}
+
+
+/* navbar section start */
+
+@media(max-width:991px) {
+    .navbar .navbar-brand {
+        display: block;
+    }
+}
+
+
+/* Offcanvas staction */
+
+/* Mobile Specific Styles */
+@media (max-width: 768px) {
+    .offcanvas-body {
+        padding: 16px;
+    }
+
+    .offcanvas .navbar-nav .nav-link {
+        font-size: 14px;
+        padding: 8px 0;
+        margin-bottom: 8px;
+    }
+
+    .offcanvas .nav-btn a {
+        padding: 8px 16px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+}
+
+
+/* banner-section-start  */
+
+@media(max-width:991px) {
+    .banner-section .banner-info .para {
+        align-items: center !important;
+    }
+}
+
+
+@media(max-width:991px) {
+    .owl-theme .owl-nav {
+        display: none;
+    }
+}
