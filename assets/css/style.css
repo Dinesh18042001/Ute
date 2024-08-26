@@ -467,9 +467,6 @@ html {
     border-radius: 10px;
 }
 
-
-
-
 .testimonial-section .t-carcal {
     display: flex;
     justify-content: center;
@@ -506,12 +503,19 @@ html {
     width: 64px;
     background: var(--primary-color);
 }
+@media(max-width:991px) {
+    .testimonial-section .owl-carousel .owl-nav i {
+        display: none;
+    }
+}
+
+
 
 .testimonial-carousel .owl-dots {
     margin-top: 35px
 }
 
-.owl-theme .owl-nav{
+.testimonial-carousel.owl-theme .owl-nav{
     position: absolute;
     top: 38%;
     left: 50%;
@@ -918,14 +922,19 @@ border-radius: 10px;
     font-size: 23px;
 }
 .about-page-section .about-page-info p{
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 500;
     line-height: 25px;
 }
 .about-page-section h6{
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 600;
     color: var(--primary-color);
+}
+.about-page-section p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
 }
 
 
@@ -1068,6 +1077,125 @@ border-radius: 10px;
 /* about-page-section end */
 
 
+
+
+/* asseccories sction strat */
+.asseccories-main-section .asseccries-link {
+    max-height: 500px; 
+    overflow-y: auto; 
+}
+
+/* Custom scrollbar styles */
+.asseccories-main-section .asseccries-link::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.asseccories-main-section .asseccries-link::-webkit-scrollbar-thumb {
+    background-color: red; 
+    border-radius: 10px; 
+}
+
+.asseccories-main-section .asseccries-link::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 10px;
+}
+
+
+.asseccories-main-section .asseccries-link {
+    scrollbar-width: thin; 
+    scrollbar-color: var(--primary-color) #f1f1f1;
+}
+
+.asseccories-main-section .accessories-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.asseccories-main-section .asseccries-link a {
+    display: block; 
+    border: 1px solid var(--primary-color);
+    padding: 20px;
+    text-decoration: none; 
+    color: inherit; 
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.asseccories-main-section .asseccries-link a:hover {
+    background-color: var(--primary-color); 
+    color: #fff; 
+}
+/* .asseccories-main-section .accessories-tittlt h3{
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+} */
+.asseccories-main-section .accessories-tittlt h3 a{
+
+}
+
+/* asseccories sction end */
+
+/* ladder-rack sction start */
+
+.ladder-racks-carousel.owl-carousel .owl-nav i {
+    background: var(--primary-color);
+    color: #fff !important;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 64px;
+    background: var(--primary-color);
+}
+
+.ladder-racks-carousel.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    border-radius: 0px !important;
+}
+
+.ladder-racks-carousel.owl-theme .owl-dots {
+    display: none;
+}
+
+
+
+.ladder-racks-carousel .owl-dot.active span {
+    width: 80px !important;
+    background-color: var(--primary-color) !important;
+}
+.ladder-racks-carousel .ladder-racks-img img {
+    width: 100%;
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+}
+
+/* .ladder-racks-carousel .ladder-racks-img .ladder-racks-img-info{
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+} */
+
+.ladder-racks-carousel .ladder-racks-img .ladder-racks-img-info .ladder-racks-img-info-tittlt h6{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--primary-color);
+}
+.ladder-racks-carousel .ladder-racks-img .ladder-racks-img-info p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+/* ladder-rack sction end */
 
 
 
