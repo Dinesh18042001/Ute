@@ -33,3 +33,41 @@ $('.testimonial-carousel').owlCarousel({
         }
     }
 })
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var galleryImages = document.querySelectorAll('.gallery-img');
+        var lightboxImage = document.getElementById('lightboxImage');
+
+        galleryImages.forEach(function(image) {
+            image.addEventListener('click', function() {
+                var imgSrc = this.getAttribute('data-img-src');
+                lightboxImage.src = imgSrc;
+            });
+        });
+    });
+
+
+
+
+
+
+    
+
+    $(document).ready(function() {
+
+        $('.counter').each(function () {
+        $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+        }, {
+        duration: 4000,
+        easing: 'swing',
+        step: function (now) {
+        $(this).text(Math.ceil(now));
+        }
+        });
+        });
+        
+        });
+
