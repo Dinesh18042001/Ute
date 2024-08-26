@@ -10,6 +10,12 @@
 @media(max-width:991px) {
     .navbar {
         top: 0;
+        height: 100px;
+    }
+}
+@media(max-width:991px) {
+    .navbar .navbar-brand img {
+        width: 100%;
     }
 }
 

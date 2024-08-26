@@ -29,10 +29,7 @@ html {
     top: 90px;
     z-index: 9;
     width: 100%;
-
 }
-
-
 
 .header-scrolled {
     position: fixed !important;
