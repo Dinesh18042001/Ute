@@ -52,6 +52,9 @@ html {
     color: #fff !important;
 }
 
+.header-scrolled.navbar .navbar-brand {
+    display: block;
+}
 
 
 .topbar-section {
@@ -146,7 +149,7 @@ html {
 }
 
 .navbar .navbar-brand img{
-        width: 78px;
+        width: 100px;
 }
 
 .navbar .navbar-brand {
